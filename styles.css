@@ -1,0 +1,18 @@
+@font-face {
+    font-family: spongebob-font;
+    src: url(spongeboy-me-bob.ttf);
+}
+
+html {
+    font-family: spongebob-font;
+}
+
+body {
+    background-color: aquamarine;
+    background-image: url(images/spongebob-clouds.jpg);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(200, 255, 3);
+}
