@@ -3,16 +3,40 @@
     src: url(spongeboy-me-bob.ttf);
 }
 
-html {
-    font-family: spongebob-font;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: aquamarine;
+    font-family: spongebob-font, sans-serif;
+    background-color:rgb(17, 138, 182);
     background-image: url(images/spongebob-clouds.jpg);
+    margin: 1rem;
+    text-align: center;
 }
 
-h1 {
-    text-align: center;
+header {
+    padding: 1rem;
     color: rgb(200, 255, 3);
+    font-size: 2rem;
+}
+
+div {
+    border: 2px solid #333;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    font-size: 1.5rem;
+    line-height: 5rem;
+    background-color: beige
+}
+
+.home-list {
+    list-style-type: none;
+}
+
+li {
+    border-top: 1px solid #333;
 }
