@@ -23,7 +23,7 @@ header {
     font-size: 2rem;
 }
 
-div {
+.container {
     border: 2px solid #333;
     border-radius: 2rem;
     margin: 0 auto 1rem;
@@ -33,10 +33,45 @@ div {
     background-color: beige
 }
 
+.container.info {
+    max-width: max-content;
+    padding: 2rem;
+}
+
+.container.ingredients {
+    font-size: 1rem;
+    max-width: 400px;
+    list-style-position: inside;
+}
+
+.container.instructions {
+    font-size: 1rem;
+    max-width: 1250px;
+    list-style-position: inside;
+}
+
 .home-list {
     list-style-type: none;
 }
 
-li {
+.home li {
     border-top: 1px solid #333;
+}
+
+.home li:first-child,
+.home li:first-child a {
+    border-radius: 1.8rem 1.8rem 0 0;
+}
+
+.home li a {
+    display: block;
+    text-decoration: none;
+}
+
+.home li a:hover {
+    background: rgb(200, 255, 3);
+}
+
+.home li:last-child a {
+    border-radius: 0 0 2rem 2rem;
 }
